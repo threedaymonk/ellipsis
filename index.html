@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="screen.css" />
+  <script src="ellipsis.js" type="text/javascript"></script>
+  <title>Ellipsis</title>
+</head>
+
+<body>
+  
+  <p class="ellipsis">This is some text</p>
+  <p class="ellipsis">This is some more text</p>
+  <p class="ellipsis">This is some even longer text</p>
+  <p class="ellipsis wide">To be or not to be, that is the question: whether 'tis nobler in the mind to
+  suffer the slings and arrows of outrageous fortune, or to take arms against a sea of troubles
+  and by opposing end them.</p>
+  
+  <script type="text/javascript">
+    window.onload = Ellipsis.update;
+    window.onresize = Ellipsis.update;
+  </script>
+  
+</body>
+</html>
